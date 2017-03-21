@@ -1,0 +1,12 @@
+{
+  "name": "phonegap-plugin-push-example",
+  "version": "0.1.0",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "start": "tabris serve"
+  },
+  "dependencies": {
+    "tabris": "^2.0.0-beta2"
+  }
+}

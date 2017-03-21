@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.eclipsesource.phonegap.plugin.push.example" version="0.1.0">
+  <name>Phonegap Plugin Push Example</name>
+  <plugin name="phonegap-plugin-push" spec="https://github.com/eclipsesource/phonegap-plugin-push.git#remove-android-declaration">
+    <variable name="SENDER_ID" value="$GCM_SENDER_ID" />
+  </plugin>
+  <plugin name="cordova.plugins.diagnostic" spec="https://github.com/eclipsesource/cordova-diagnostic-plugin.git#ios10:/"/>
+  <preference name="EnableDeveloperConsole" value="true"/>
+</widget>
